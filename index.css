@@ -1,0 +1,53 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Heading Section & Header Section Css */
+.heading{
+    color: #FFF2E1;
+    padding: 0% 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#header-Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A79277;
+}
+
+/* Button Section css */
+#fetch-Data{
+    width: 15%;
+    height: 8vh;
+    border-radius: 25% 2px 25% 2px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+#fetch-Data:hover{
+    background-color: #FFF2E1;
+    color: #A79277;
+}
+
+/* Parent div section css */
+#root{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1px;
+}
+
+/* Card Section Css including img ,p,h3 tag */
+#root>div{
+    width: 65%;
+    height: 45vh;
+    padding: 2%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+img{
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
